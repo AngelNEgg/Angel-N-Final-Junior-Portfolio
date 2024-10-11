@@ -15,7 +15,8 @@ html,body{
 	outline: 10px 10px #49796b groove;
 	text-transform: capitalize;
 	text-shadow: 1px 1px #317873 ;
-	font-family: 'M PLUS Rounded 1c', sans-serif;					height: 120px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	height: 120px;
 	text-align: right;
 	font-style: oblique;
 }
