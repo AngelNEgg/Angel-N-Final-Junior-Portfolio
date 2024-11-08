@@ -1,3 +1,3 @@
-_# Image Credits
-_
+# _Image Credits_
+
 _**Favicon:**_ Me - Google Sheets
