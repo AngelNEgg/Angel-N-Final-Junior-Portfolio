@@ -1,4 +1,4 @@
-# description: 
+# Song 1 
 from earsketch import *
 
 setTempo(80)
@@ -16,3 +16,20 @@ fitMedia(AK_UNDOG_PERC_WOODBLOCKS, 9, 1, 5)
 setEffect(1, REVERB, REVERB_TIME, 2000)
 setEffect(1, REVERB, REVERB_DAMPFREQ, 18000)
 setEffect(1, REVERB, MIX, 0.5)
+
+# Song 2
+from earsketch import *
+
+init()
+
+setTempo(165)
+
+setEffect(2, REVERB, REVERB_TIME, 2500)
+setEffect(2, VOLUME, GAIN, -10, 1, 1)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_ELEC_GUITAR_SEG, 1, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_ELEC_GUITAR_PRI, 2, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_ELEC_GUITAR_SEG, 3, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_ELEC_PIANO, 4, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_BARRIL_HIGH, 5, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_BAJO, 6, 1, 20)
+fitMedia(IRCA_BOMBA_SEIS_CORRIDO_CUA, 7, 1, 20)
