@@ -33,3 +33,35 @@ fitMedia(IRCA_BOMBA_SEIS_CORRIDO_ELEC_PIANO, 4, 1, 20)
 fitMedia(IRCA_BOMBA_SEIS_CORRIDO_BARRIL_HIGH, 5, 1, 20)
 fitMedia(IRCA_BOMBA_SEIS_CORRIDO_BAJO, 6, 1, 20)
 fitMedia(IRCA_BOMBA_SEIS_CORRIDO_CUA, 7, 1, 20)
+
+# Song 3
+#Angel Nazaire
+#11/19/2024
+# Sample
+from earsketch import *
+
+init()
+
+setTempo(80)
+bass1 = Y20_HARP_SYNTH_1
+bass2 = Y20_SINE_1
+drum =Y07_DRUM_SAMPLE
+lead = Y20_ELECTRO_1
+lead2 = Y20_ELECTRO_2
+crash = Y07_CRASH
+hat = Y08_OPEN_HI_HATS
+vocal = 
+
+fitMedia(bass1, 1, 1, 9)
+fitMedia(bass2, 2, 1, 9)
+setEffect(2, VOLUME, GAIN, 5)
+fitMedia(lead, 3, 1, 9)
+fitMedia(lead2, 4, 1, 9)
+
+fitMedia(drum, 5, 1, 9)
+fitMedia(hat, 6, 1, 9)
+setEffect(6, VOLUME, GAIN, 1, 1, -10, 3)
+setEffect(6, VOLUME, GAIN, 1, 5, -10, 7)
+
+fitMedia(crash, 7, 1, 5)
+fitMedia(crash, 7, 5, 9)
