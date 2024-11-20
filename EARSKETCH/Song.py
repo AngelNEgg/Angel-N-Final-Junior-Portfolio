@@ -80,3 +80,23 @@ fitMedia(Y27_ELECTRO_1, 4, 5, 9)
 fitMedia(YG_TECHNO_DRUMS_3, 5, 5, 9)
 fitMedia(YG_TECHNO_SYNTH_2, 6, 5, 9)
 fitMedia(YG_TECHNO_SYNTH_BASS_2, 7, 5, 9)
+
+# Project
+from earsketch import *
+
+init()
+
+setTempo(120)
+
+#setEffect(track, type, parameter, startValue, start, endValue, end)
+setEffect(1, FILTER, FILTER_FREQ, 20, 1, 20000, 5)
+setEffect(1, FILTER, FILTER_RESONANCE, 0.9,1,)
+setEffect(1, FILTER, MIX, 1,1,0,5)
+
+fitMedia(YG_TECHNO_FILTERED_LOOP_1, 1, 1, 9)
+fitMedia(YG_TECHNO_ELECTRIC_PIANO_1, 2, 5, 9)
+fitMedia(YG_TECHNO_SYNTH_1, 3, 5, 9)
+fitMedia(Y27_ELECTRO_1, 4, 5, 9)
+fitMedia(YG_TECHNO_DRUMS_3, 5, 5, 9)
+fitMedia(YG_TECHNO_SYNTH_2, 6, 5, 9)
+fitMedia(YG_TECHNO_SYNTH_BASS_2, 7, 5, 9)
